@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <title>
+    Factzz - Rest Password
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link id="pagestyle" href="assets/css/soft-ui-dashboard.css?v=1.0.9" rel="stylesheet" />
+
+  <!--   Start --sweet alert css 30-08-2022 -->
+  <link id="pagestyle" href="assets/css/min/sweetalert.min.css" rel="stylesheet" />
+
+  <!--  End --sweet alert css 30-08-2022 -->
+
+
+</head>
+
+<body class="">
+  <!-- <div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <nav
+          class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent mt-4">
+          <div class="container">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-Black" href="pages/dashboards/default.html">
+              Factzz
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span>
+            </button>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div> -->
+  <main class="main-content main-content-bg pt-3 pb-8 signin_background min-vh-100">
+    <section class="min-vh-75">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-7 mx-auto">
+            <div class="card z-index-0 mt-sm-10  mb-sm-3  mt-9 mb-6 position-relative  border-radius-lg">
+              <img src="assets/img/logo-ct-dark.png" class="navbar-brand-img h-100 w-20 logo-img logo_image"
+              alt="main_logo">
+              <div class="card-header text-center pt-4 pb-1 border-radius-lg">
+                <h4 class="font-weight-bolder mb-1">Reset password</h4>
+                <p class="mb-0">You will receive an e-mail in maximum 60 seconds</p>
+              </div>
+              <div class="card-body">
+
+                <form role="form" method="post" id="resent_form" enctype="multipart/form-data">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                      aria-label="Email">
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn bg-gradient-dark btn-lg w-100 my-4 mb-2">Send</button>
+                  </div>
+                </form>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+  <footer class="footer py-2 footer_backcolor">
+    <div class="container">
+      <div class="d-flex justify-content-lg-between">
+        <div class=" mx-auto text-center">
+          <a href="javascript:;" target="_blank" class="text-secondary text-2 text-white me-xl-5 me-3 mb-sm-0 mb-2">
+            Team of Service
+          </a>
+          <a href="javascript:;" target="_blank" class="text-white text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+            Privacy Policy
+          </a>
+        </div>
+        <div>
+          <img src="./assets/img/factzzlogo/Logo white PNG.png" width="100px" alt="">
+        </div>
+        <div class="mx-auto text-center">
+          <p class="mb-0 text-secondary text-white">
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script> Factzz Production.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mb-4 mx-auto text-center">
+          
+          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+            About Us
+          </a>
+          
+          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+            Blog
+          </a>
+          
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-8 mx-auto text-center mt-1">
+          <p class="mb-0 text-secondary">
+            Copyright © <script>
+              document.write(new Date().getFullYear())
+            </script> Factzz Production.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <!-- Kanban scripts -->
+  <script src="assets/js/plugins/dragula/dragula.min.js"></script>
+  <script src="assets/js/plugins/jkanban/jkanban.js"></script>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/soft-ui-dashboard.min.js?v=1.0.9"></script>
+
+  <!-- start --- form validation 30-08-2022 -->
+  <!--  <script src="assets/js/app-custom.js"></script> -->
+  <script src="assets/js/message.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/form-validation.min.js"></script>
+  <script src="assets/js/owl.carousel.js"></script>
+  <script src="assets/js/sweetalert-min.js"></script>
+
+  <!-- End --- form validation 30-08-2022 -->
+
+
+
+</body>
+
+</html>
+
+
+
+<!-- start --- form validation 30-08-2022 -->
+<script>
+
+  $(function () {
+
+    $("#resent_form").validate({
+      errorPlacement: function (error, element) {
+        $(element)
+          .closest("form")
+          .find("label[for='" + element.attr("id") + "']")
+          .append(error);
+
+      },
+
+      errorElement: "span",
+      rules: {
+
+        email: {
+          required: true,
+          email: true,
+          maxlength: 70,
+        },
+
+
+      },
+
+      submitHandler: function () {
+        let formData = $("#resent_form").serialize();
+        let email = $("#email").val();
+        // console.log(email,"emailemailemailemailemailemailemailemailemail")
+        localStorage.setItem("signupEmail", email);
+
+        $.ajax({
+          url: 'https://admin.factzz.in/api/user/forgot_password',
+          data: formData,
+          cache: false,
+          processData: false,
+          method: 'POST',
+          type: 'POST',
+          success: function (_res) {
+            // console.log(_res.success,"dksfdskfhdsifhdihdihdidifdsfijdfjdfodjfodfj");
+            if (_res.success) {
+              let successConfig = {
+                title: 'Confirmation',
+                message: `Your account has been successfully verified.`,
+                type: 'success',
+              }
+              window.location.href = "file:///home/zit-rohit/Documents/projects%20html/redesign/redesign/pages/authentication/verification/basic.html";
+              KWACHA_MAIN.sweetAlert(successConfig);
+              $('#resent_form').trigger("reset");
+
+
+            } else {
+              // let responseText = JSON.parse(e.responseText);
+              let errorConfig = {
+                title: 'Error',
+                message: _res.error,
+                type: 'error'
+              }
+              KWACHA_MAIN.sweetAlert(errorConfig);
+            }
+
+          },
+
+        });
+
+      },
+
+
+    });
+
+
+
+
+
+
+  });
+
+
+</script>
+
+<!-- End --- form validation 30-08-2022 -->
