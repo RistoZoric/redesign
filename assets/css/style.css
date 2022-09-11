@@ -1,12 +1,14 @@
-.logo-img{
+.logo-img {
     max-width: 100%;
     max-height: 5rem;
 }
-.forcentermd{
+
+.forcentermd {
     justify-content: center;
     padding: 0 !important;
 }
-.main-content{
+
+.main-content {
     /* overflow: hidden; */
     /* position: fixed; */
     top: 0;
@@ -15,47 +17,89 @@
     left: 0;
     z-index: 1;
 }
-main .background_mp4{
+
+main .background_mp4 {
     position: absolute;
     top: 0px;
     right: 0px;
     width: 100%;
-    height:auto;
+    height: auto;
     /* overflow: hidden; */
     z-index: -1;
 }
-main .mask_background{
+
+main .mask_background {
     position: absolute;
     top: 0px;
     right: 0px;
     width: 100%;
-    height:auto;
-    background-color: rgba(0, 0, 0,0.5);
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.signin_background{
+
+.signin_background {
     background: url("../img/background.jpg") no-repeat;
     background-size: cover;
 }
-.logo_image{
+
+.logo_image {
     position: absolute;
     left: 38%;
     top: -67px;
     z-index: 100;
 }
-.footer_backcolor{
+
+.footer_backcolor {
     background-color: blue;
 }
-.w-26{
+
+.w-26 {
     width: 26% !important;
 }
+
 .footer ul {
     list-style: none !important;
     padding-left: 0 !important;
 }
-.footer  .nav-item .nav-link i{
+
+.footer .nav-item .nav-link i {
     padding-right: 10px;
     /* color: rgb(20, 69, 202); */
 }
+
 .footer .nav-item .nav-link {
     /* color:  rgb(20, 69, 202) !important; */
+}
+
+.right_part {
+    margin-top: -44px;
+}
+
+@media (max-width: 991px) {
+    .right_part {
+        margin-top: 5px;
+    }
+}
+
+#suggestion .card-body:hover{
+    background: rgba(0, 0, 0, 0.7) !important;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 18px;
+    transition: 0.5s;
+    /* border: 8px solid white; */
+    box-shadow: 0 0 10px rgb(161, 154, 154); 
+}
+
+.footer{
+    /* background-color: rgb(245, 238, 238);
+    box-shadow: 0 0 20px black; */
+}
+.card_btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    transition: 0.5s;
+}
+.card_active .icon{
+    background-image: linear-gradient(310deg, #cb0c9f 0%, #cb0c9f 100%);
 }
